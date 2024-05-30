@@ -1,19 +1,12 @@
-# git-wiki-skeleton
+# ECV-wiki
 
-NOTE: it's fully supported by github platform, you don't need to install anything locally
+Welcome to our lab wiki 👋! This is a collection of resources, tutorials, and guides that we have found useful in our research. We hope that you will find them useful too.
 
-This is a [skeleton](skeleton) repository that can be used as a template to bootstrap your wiki using "[remote_theme](https://github.com/benbalter/jekyll-remote-theme)" config
+## Modifying a file:
 
-For documentation, installation guide and demo of git-wiki-theme visit [THIS PAGE](http://drassil.github.io/git-wiki/)
+Click the small icon in the top right corner of the file.
 
-## The git-wiki project
+Files are structured in Classic Markdown format. You can edit them directly on GitHub by clicking the pencil icon in the top right corner of the file. Have a look at the [GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/) or [mkdocs-material](https://squidfunk.github.io/mkdocs-material/reference/) for more information on how to format your text.
 
-The git-wiki project is composed by 3 different repository:
-
-- [git-wiki-theme](https://github.com/Drassil/git-wiki-theme): This is the repository of the theme that implements the wiki functionalities. You would have not fork it unless you need to send a Pull Request or create your wiki project from scratch.
-
-- [git-wiki-skeleton](https://github.com/Drassil/git-wiki-skeleton): This is the repo that you should fork or use as a template. It uses the [jekyll remote theme](https://github.com/benbalter/jekyll-remote-theme) functionality that allows you to create your own wiki based on git-wiki-theme. By using the remote functionality you can automatically keep your wiki always updated with latest features from the **git-wiki-theme**, but you can also fully customize it. 
-
-- [git-wiki](https://github.com/Drassil/git-wiki): This is the documentation repository and website of the **git-wiki-theme** project. You would have not fork it unless you want to contribute to the git-wiki project documentation.
-
-Version: 1.0.8
+Type what you are looking for in the search bar:
+![Search bar video](docs/images/Screen%20Recording%202024-05-30%20at%2009.29.18.gif)
