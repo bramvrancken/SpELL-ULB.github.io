@@ -1,7 +1,9 @@
 name: Publish Docs On Change
 on:
     push:
-        branches: [main, master]
+        branches:
+            - main
+            - master
 
 permissions:
     contents: write
