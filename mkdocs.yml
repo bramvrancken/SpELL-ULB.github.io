@@ -50,6 +50,9 @@ theme:
         - search.highlight
         - toc.follow
 
+extra_css:
+    - stylesheets/extra.css
+
 markdown_extensions:
     - admonition
     - attr_list
@@ -80,7 +83,16 @@ markdown_extensions:
           generic: true
 plugins:
     - search
-    - git-revision-date
+    - git-authors:
+          show_contribution: true
+          sort_authors_by: contribution
+          exclude:
+              - index.md
+    - git-revision-date-localized:
+          type: timeago
+    - git-latest-changes:
+          limit_to_docs_dir: True
+          repo_vendor: github
     - awesome-pages
 
 extra:

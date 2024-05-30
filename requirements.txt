@@ -2,4 +2,4 @@ mkdocs-material-extensions
 pygments
 pymdown-extensions
 mkdocs-awesome-pages-plugin
-mkdocs-git-revision-date-plugin
+mkdocs-git-revision-date-localized-plugin

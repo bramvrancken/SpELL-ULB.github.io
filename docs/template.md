@@ -2,4 +2,7 @@
 
 This page is a work in progress!
 
-Come back later to check on it, or [contribute](github.com/ECV-Lab-KULeuven/ECV-Lab-KULeuven.github.io/).
+Hey Look I also made a contribution to this page!
+I wonder how this will look like.
+
+Come back later to check on it, or [contribute](https://github.com/ECV-Lab-KULeuven/ECV-Lab-KULeuven.github.io).
