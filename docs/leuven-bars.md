@@ -1,5 +1,3 @@
 ### Page template
 
-This page is a work in progress!
-
-Come back later to check on it, or [contribute](https://github.com/ECV-Lab-KULeuven/ECV-Lab-KULeuven.github.io).
+I've heard the breakout room on the 10th floor at the rega are very good.
