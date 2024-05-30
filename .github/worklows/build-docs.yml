@@ -2,8 +2,6 @@ name: Publish Docs On Change
 on:
     push:
         branches: [main, master]
-    commit:
-        branches: [main, master]
 
 permissions:
     contents: write
