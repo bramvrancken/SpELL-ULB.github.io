@@ -5,3 +5,4 @@ pymdown-extensions
 mkdocs-awesome-pages-plugin
 mkdocs-git-revision-date-localized-plugin
 mkdocs-git-authors-plugin
+mkdocs-git-latest-changes-plugin
