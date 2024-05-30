@@ -1,25 +1,12 @@
-# Computational & Evolutionary Virology wiki
+# ECV-wiki
 
-Welcome to the CEV laboratory wiki!
+Welcome to our lab wiki 👋! This is a collection of resources, tutorials, and guides that we have found useful in our research. We hope that you will find them useful too.
 
-#### This site is under construction! Articles may be empty or missing! Thank you for being patient with us!
+## Modifying a file:
 
-If you have anything that you'd like to contribute or updates that you'd like to make please leave an issue (link) or submit a pull request (link) on Github!
+Click the small icon in the top right corner of the file.
 
-## Sitemap
+Files are structured in Classic Markdown format. You can edit them directly on GitHub by clicking the pencil icon in the top right corner of the file. Have a look at the [GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/) or [mkdocs-material](https://squidfunk.github.io/mkdocs-material/reference/) for more information on how to format your text.
 
-* Practical
-    * Getting started manual
-    * Belgium
-    * KU Leuven
-    * Work/Rega
-* Theory
-    * Phylogenetics
-    * Bayesian statistics 
-    * Key papers
-* Helpful files
-    * Bank of slides
-    * Doctoral milestone examples
-    * Templates
-    * XML snippets
-    * Icons for presentations
+Type what you are looking for in the search bar:
+![Search bar video](docs/images/Screen%20Recording%202024-05-30%20at%2009.29.18.gif)
