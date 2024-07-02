@@ -6,8 +6,9 @@ site_url: https://ecv-lab-kuleuven.github.io/
 nav:
     - Home: index.md
     - Recently edited:
-          - index.md
-          - template.md
+            - singularity.md
+            - index.md
+            - template.md
     - Pages:
           - ...
 
