@@ -6,6 +6,7 @@ site_url: https://ecv-lab-kuleuven.github.io/
 nav:
     - Home: index.md
     - Recently edited:
+          - beagle-instll-hpc.md
           - index.md
           - template.md
     - Pages:
