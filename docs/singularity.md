@@ -5,10 +5,11 @@ First developed at Lawrence Berkeley National Laboratory, it quickly became popu
 The user base continues to expand, with Singularity now used across industry and academia in many areas of work.
 
 !!! Tip
-    Singularity is the tool to run on HPCs, including ours! As you don\'t need root acces to run it (unlike [docker](./docker.md)).
+    Singularity is the tool to run on HPCs, including ours! As you don't need root acces to run it (unlike [docker](./docker.md)).
 
 ## Why Singularity?
 Many container platforms are available, but Singularity is focused on:
+
 •	Verifiable reproducibility and security, using cryptographic signatures, an immutable container image format, and in-memory decryption.
 •	Integration over isolation by default. Easily make use of GPUs, high speed networks, parallel filesystems on a cluster or server by default.
 •	Mobility of compute. The single file SIF container format is easy to transport and share.
