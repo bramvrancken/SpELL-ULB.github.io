@@ -96,6 +96,7 @@ plugins:
     - git-latest-changes:
           limit_to_docs_dir: True
           repo_vendor: github
+          history_limit: 5
     - awesome-pages
 
 extra:
