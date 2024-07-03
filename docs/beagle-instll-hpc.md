@@ -5,6 +5,8 @@ Installing beagle from source can be a bit of a pain. Installing & compiling fro
 > TODO: Explain how to install from source on HPC  
 
 ## Cheat with Singularity
+!!! info "what is Singularity?"
+    Ooh you don't know what singularity is? Have a read [here](./singularity.md)
 
 The easiest way to install beagle is to use a container. The container is a self-contained environment that has all the dependencies installed. 
 
