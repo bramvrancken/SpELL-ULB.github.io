@@ -7,6 +7,7 @@ nav:
     - Home: index.md
     - Recently edited:
             - singularity.md
+            - docker.md
             - index.md
             - template.md
     - Pages:
