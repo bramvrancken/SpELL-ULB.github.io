@@ -10,10 +10,11 @@ The user base continues to expand, with Singularity now used across industry and
 ## Why Singularity?
 Many container platforms are available, but Singularity is focused on:
 
-•	Verifiable reproducibility and security, using cryptographic signatures, an immutable container image format, and in-memory decryption.
-•	Integration over isolation by default. Easily make use of GPUs, high speed networks, parallel filesystems on a cluster or server by default.
-•	Mobility of compute. The single file SIF container format is easy to transport and share.
-•	A simple, effective security model. You are the same user inside a container as outside, and cannot gain additional privilege on the host system by default. 
+-	Verifiable reproducibility and security, using cryptographic signatures, an immutable container image format, and in-memory decryption.
+-	Integration over isolation by default. Easily make use of GPUs, high speed networks, parallel filesystems on a cluster or server by default.
+-	Mobility of compute. The single file SIF container format is easy to transport and share.
+-	A simple, effective security model. You are the same user inside a container as outside, and cannot gain additional privilege on the host system by default. 
+
 
 ## Singularity Installation
 Singularity is available on most HPCs, but if you want to install it on your own machine, you can follow the instructions on the [official website](https://apptainer.org/docs/admin/main/installation.html).
