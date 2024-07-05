@@ -6,11 +6,11 @@ site_url: https://ecv-lab-kuleuven.github.io/
 nav:
     - Home: index.md
     - Recently edited:
+            - leuven-bars.md
+            - leuven-cafes.md
             - beagle-instll-hpc.md
             - singularity.md
             - docker.md
-            - index.md
-            - template.md
     - Pages:
           - ...
 
@@ -55,6 +55,14 @@ theme:
 
 extra_css:
     - stylesheets/extra.css
+    - https://unpkg.com/leaflet@1.3.1/dist/leaflet.css
+    - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css
+
+
+extra_javascript:
+    - https://unpkg.com/leaflet@1.9.4/dist/leaflet.js
+    - js/map-renderer.js
+
 
 markdown_extensions:
     - admonition
@@ -89,15 +97,14 @@ plugins:
     - git-authors:
           show_contribution: true
           sort_authors_by: contribution
+          ignore_authors:
+            - 61584065+joon-klaps@users.noreply.github.com
           exclude:
               - index.md
     - git-revision-date-localized:
           type: timeago
-    - git-latest-changes:
-          limit_to_docs_dir: True
-          repo_vendor: github
-          history_limit: 5
     - awesome-pages
+
 
 extra:
     generator: false
