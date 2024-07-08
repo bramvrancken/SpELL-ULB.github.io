@@ -1,4 +1,12 @@
 # Cafés
+<!--
+ WHEN UPDATED, please also update the map.md file with the new locations.
+ example: 
+ NAME,type,LAT,LON,URL
+ Malz,bar,50.8799407,4.6979099,https://maps.app.goo.gl/9fJxF2T5ZEFBVTpy7
+
+ Types are: bar,cafe,restaurant
+ -->
 
 Some people in the lab are zombies without good coffee, if you are like us, you'll love the cafés below:
 
@@ -12,13 +20,5 @@ Sometimes you work from cafés, we recommend the ones below:
 -   [OPEK](https://maps.app.goo.gl/hptZjzFRGgmkJE8B6)
 -   [University café](https://onan.be/nl/locations/kup-kuleuven/)
 
-<!--
- WHEN UPDATED, please also update the map.md file with the new locations.
- example: 
- NAME,type,LAT,LON,URL
- Malz,bar,50.8799407,4.6979099,https://maps.app.goo.gl/9fJxF2T5ZEFBVTpy7
-
- Types are: bar,cafe,restaurant
- -->
 
 --8<-- "docs/map.md"
