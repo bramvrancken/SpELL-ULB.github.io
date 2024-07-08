@@ -27,7 +27,7 @@ To create detailed tables for each cluster profile and the resources and time al
 
 ### Wice Profile
 
-| Partition                  | Max CPUs | Max Memory | Max Time |
+| Partition                  | nCPUs | Max Memory | Max Time |
 |----------------------------|----------|------------|----------|
 | batch                      | 72       | 244 GB   | 72 h   |
 | batch_long                 | 72       | 244 GB   | 168 h   |
