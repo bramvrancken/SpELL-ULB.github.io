@@ -6,12 +6,12 @@ site_url: https://ecv-lab-kuleuven.github.io/
 nav:
     - Home: index.md
     - Recently edited:
+          - bioconda.md
           - colors.md
           - leuven-bars.md
           - leuven-cafes.md
           - beagle-instll-hpc.md
           - singularity.md
-          - docker.md
     - Pages:
           - ...
 
