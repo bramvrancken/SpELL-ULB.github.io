@@ -21,11 +21,9 @@ module load CUDA
 
 singularity exec --nv \
 -B $VSC_DATA:$VSC_DATA -B $VSC_STAGING:$VSC_STAGING -B $VSC_SCRATCH:$VSC_SCRATCH -B $VSC_HOME:$VSC_HOME -B $PWD \ 
-docker://quay.io/broadinstitute/beast-beagle-cuda:v1.10.5pre_thorney_0.1.2 \
+docker://quay.io/broadinstitute/beast-beagle-cuda:v10.5.0_beta3 \
 beast -beagle_info
 ```
-!!! danger
-    On the `dedicated_rega_gpu` it doesn't work. gpu_p100 it does. 
     
 !!! tip 
     All these `-B` statements are to bind the directories to the container. Meaning, the container can access the directories on the host machine.
