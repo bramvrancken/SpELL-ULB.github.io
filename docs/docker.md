@@ -31,15 +31,15 @@ Watch their first introductory video:
 
 ### Cheatsheet
 
-### Building docker containers
+#### Building docker containers
 ```bash
 docker build -t <name-of-container>:<version> <directory/with/dockerfile>
 ```
 !!! Warning "Docker on ARM (Apple silicon chips)"
-  Make sure that when you build a docker container on a ARM architecture that you specify that the build should be for a standard AMD architecture `--platform linux/amd64`. One can convert AMD to ARM but it's more challenging to do it the other way around.
- ```bash
- docker build --platform linux/amd64 -t <name-of-container>:<version> <directory/with/dockerfile>
- ```
+   Make sure that when you build a docker container on a ARM architecture that you specify that the build should be for a standard AMD architecture `--platform linux/amd64`. One can convert AMD to ARM but it's more challenging to do it the other way around.
+  ```bash
+  docker build --platform linux/amd64 -t <name-of-container>:<version> <directory/with/dockerfile>
+  ```
 
 #### Running docker interactive
 Interactive is stated with `-it` 
