@@ -24,12 +24,22 @@ However, given that most of us are MAC users:
 [Docker Desktop for Mac with Intel chip](https://desktop.docker.com/mac/main/amd64/Docker.dmg?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-mac-amd64){ .md-button }
 
 ## In depth class
-For a more in depth class for users with 0 experience, consider the [course from SIB](https://sib-swiss.github.io/containers-introduction-training/latest/course_material/introduction_containers/). 
+For a more in depth class for users with 0 experience, consider the [course from SIB](https://sib-swiss.github.io/containers-introduction-training/latest/). 
 
 Watch their first introductory video:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Qfh80DlF1_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Cheatsheet
+
+### Building docker containers
+```bash
+docker build -t <name-of-container>:<version> <directory/with/dockerfile>
+```
+!!! Warning "Docker on ARM (Apple silicon chips)"
+  Make sure that when you build a docker container on a ARM architecture that you specify that the build should be for a standard AMD architecture `--platform linux/amd64`. One can convert AMD to ARM but it's more challenging to do it the other way around.
+ ```bash
+ docker build --platform linux/amd64 -t <name-of-container>:<version> <directory/with/dockerfile>
+ ```
 
 #### Running docker interactive
 Interactive is stated with `-it` 
