@@ -17,11 +17,11 @@ You can clone this repo in the traditional way, modify its contents offline and 
 
 ```
 # Create a virtual environment:   
-$ python3 -m venv venv
+   $ python3 -m venv venv
 # Activate the virtual environment:   
-$ source ./venv/bin/activate
+   $ source ./venv/bin/activate
 # Install dependencies:   
-(venv) $ pip install -r requirements.txt
+   (venv) $ pip install -r requirements.txt
 ```
 
 Do not forget to add `venv` to the ``.gitignore` file by adding the following:
@@ -34,7 +34,7 @@ venv/
 If additional dependencies are needed for further development, the list of dependencies can be updated as follows:
 
 ```
-pip freeze > requirements.txt
+(venv) $ pip freeze > requirements.txt
 ```
 
 
