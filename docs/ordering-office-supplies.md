@@ -1,7 +1,7 @@
 # Official suppliers of material at ULB
 
-Contact: commandes.daf@ulb.be
-More info on this [website](https://portail.ulb.be/fr/finances-achats-et-comptabilite/achats/fournisseurs-officiels-de-l-ulb?ksession=16275aab-dd0b-4ec5-a9e0-eba79f497812)
+Contact: commandes.daf@ulb.be   
+More info on this [website](https://portail.ulb.be/fr/finances-achats-et-comptabilite/achats/fournisseurs-officiels-de-l-ulb?ksession=16275aab-dd0b-4ec5-a9e0-eba79f497812).
 
 # Ordering office supplies (__laptop, external hard drive, ...__)
 
