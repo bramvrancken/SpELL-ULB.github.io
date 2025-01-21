@@ -28,14 +28,14 @@ You can clone this repo in the traditional way, modify its contents offline and 
    (venv) $ pip install -r requirements.txt   
 ```
 
-Do not forget to add `venv` to the ``.gitignore` file by adding the following:
+Do not forget to add `venv` to the `.gitignore` file by adding the following lines:
 
 ```
 # open .gitignore
    (venv) $ vim .gitignore
 # and add the following lines:
-# Ignore the virtual environment directory [mind the '/']
-venv/ 
+`# Ignore the virtual environment directory [mind the '/']
+venv/` 
 ```
 
 If additional dependencies are needed for further development, the list of dependencies can be updated as follows:
