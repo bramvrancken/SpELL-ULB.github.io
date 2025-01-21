@@ -10,3 +10,29 @@ Files are structured in Classic Markdown format. You can edit them directly on G
 
 Type what you are looking for in the search bar:
 ![Search bar video](docs/images/Screen%20Recording%202024-05-30%20at%2009.29.18.gif)
+
+## Working offline on these docs 
+
+You can clone this repo in the traditional way, modify its contents offline and push updates to the master branch. The dependencies are listed in requirements.txt. As always, it is good practise to create a virtual environment before installing these. If you are not familiar with virtual environments, is a good idea to learn about them. The following commands can be used to create a virtual environment and install the dependencies:
+
+#1. Create a virtual environment:
+python3 -m venv venv
+#2. Activate the virtual environment:
+source ./venv/bin/activate
+#3. Install dependencies:
+pip install -r requirements.txt
+
+Do not forget to add venv to the .gitignore file by adding the following:
+
+# Ignore the virtual environment directory [mind the '/']
+venv/ 
+
+If additional dependencies are needed for further development, the list of dependencies can be updated as follows:
+
+pip freeze > requirements.txt
+
+
+
+
+
+
