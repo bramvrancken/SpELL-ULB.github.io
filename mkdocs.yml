@@ -1,7 +1,7 @@
-site_name: ecv-wiki
-repo_name: ECV-Lab-KULeuven/ECV-Lab-KULeuven.github.io
-repo_url: https://github.com/ECV-Lab-KULeuven/ECV-Lab-KULeuven.github.io
-site_url: https://ecv-lab-kuleuven.github.io/
+site_name: SpELL-wiki
+repo_name: bramvrancken/SpELL-ULB.github.io
+repo_url: https://github.com/bramvrancken/SpELL-ULB.github.io
+site_url: https://spell-ulb.github.io/
 
 nav:
     - Home: index.md
