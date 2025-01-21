@@ -3,7 +3,7 @@
 !!! warning "This site is under construction!"
 
 -   Articles may be empty or missing!
--   Thank you for being patient with us!
+-   Thank you for being patient and passing info and stuff that should be added to Bram of Simon.
 
 ## Sitemap
 
