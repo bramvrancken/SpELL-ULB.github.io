@@ -1,8 +1,8 @@
 # Homepage
 
-!!! warning "This site is under construction!"
+!!! warning "This site is continuously evolving."
 
--   Articles may be empty or missing!
+-   Information may be missing or outdated
 -   Thank you for being patient and passing info and stuff that should be added to Bram or Simon.
 
 ## Sitemap
