@@ -7,9 +7,9 @@ Given the walltimes of the different servers, Dragon1 (walltime up to 41 days) a
 
 ## GPU nodes
 
-The lab has acces to its own compute node. If you want acces to this, go by Simon and he can arrange this. 
+The lab has acces to its own compute node. If you want to use it, pass by Simon and he can arrange you get an account on this. 
 
-Specifically, on this node you have acces to 32 CPUs (with a maximum use of 125 GB RAM each) and 4 GPUs. The walltime currently is set to 35 days.
+On this node you have acces to 32 CPUs (with a maximum memory use of 125 GB RAM each) and 4 GPUs. The walltime currently is set to 35 days.
 
 An example job submission script can be found below:
 
@@ -22,14 +22,20 @@ An example job submission script can be found below:
 #SBATCH --job-name=<job name>
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --gres="gpu" or --gres="gpu:>1, 2, 3 or 4>" 
-#SBATCH --time=<runtime in format DD-hh:mm:ss>
+#SBATCH --gres="gpu" # or --gres="gpu:<1, 2, 3 or 4>" 
+#SBATCH --time=<requested walltime in format DD-hh:mm:ss>
 ```
 
-To show info on running jobs, and in particular to check that the GPU resource is used, use the `squeue` command after adding the following line to your `.bashrc` (and sourcing it).
+To show info on running jobs, and in particular to check that the GPU resource is used, use the `squeue` command.
+We've found it useful to add the following line to `~/.bashrc`:
 
 ```
 export SQUEUE_FORMAT="%.18i %.9P %.8j %.8u %.2t %.10M %.6D %.20R %b"
 ```
 
+To immediately make use of this, source `.bashrc` (this will not be necessary the following times you log in):
+
+```
+$ source ~/.bashrc
+```
 
