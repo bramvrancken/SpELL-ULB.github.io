@@ -3,3 +3,8 @@ Gemfile.*.lock
 .sass-cache
 .DS_Store
 site
+
+# Ignore the virtual environment directory
+venv/
+
+
