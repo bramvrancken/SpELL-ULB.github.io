@@ -16,17 +16,24 @@ Type what you are looking for in the search bar:
 You can clone this repo in the traditional way, modify its contents offline and push updates to the master branch. The dependencies are listed in requirements.txt. As always, it is good practise to create a virtual environment before installing these. If you are not familiar with virtual environments, is a good idea to learn about them (see for example [Python venv](https://python.land/virtual-environments/virtualenv)). The following commands can be used to create a virtual environment and install the dependencies:
 
 ```
-# Create a virtual environment:   
-   $ python3 -m venv venv
-# Activate the virtual environment:   
-   $ source ./venv/bin/activate
-# Install dependencies:   
-   (venv) $ pip install -r requirements.txt
+# clone this repo
+   $ git clone git@github.com:bramvrancken/SpELL-ULB.github.io.git   
+# move into the repo directory   
+   $ cd SpELL-ULB.github.io   
+# create a virtual environment   
+   $ python3 -m venv venv   
+# activate the virtual environment   
+   $ source ./venv/bin/activate   
+# install dependencies   
+   (venv) $ pip install -r requirements.txt   
 ```
 
 Do not forget to add `venv` to the ``.gitignore` file by adding the following:
 
 ```
+# open .gitignore
+   (venv) $ vim .gitignore
+# and add the following lines:
 # Ignore the virtual environment directory [mind the '/']
 venv/ 
 ```
