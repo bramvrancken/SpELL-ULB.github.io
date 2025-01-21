@@ -5,7 +5,7 @@ More info on this [website](https://portail.ulb.be/fr/finances-achats-et-comptab
 
 # Ordering office supplies (__laptop, external hard drive, ...__)
 
-To order items from Apple, you have to make use of the procedure via the ULB-partner Econocom. First ask Simon to contact ulb@econocom.com so as to have them send you an email with the explanation of the procedure you need to follow. In brief, this entails browsing to the [Procurato website](https://education.procurato.store/ulb) and creating a login with your ULB e-mail. You can then order the items you need and ask Simon to approve them. After that you’re done. The status of the purchases can be tracked via the procurato-website.
+To order items from Apple, you have to make use of the procedure via the ULB-partner Econocom. First ask Simon to contact ulb@econocom.com so as to have them send you an email with the explanation of the procedure you need to follow. In brief, this entails browsing to the [Procurato website](https://education.procurato.store/ulb) and creating a login with your ULB email. You can then order the items you need and ask Simon to approve them. That's it. The status of the purchases can be tracked via the procurato-website.
 
 Non-Apple items that can be found on the website of [Lyreco](https://www.lyreco.com/webshop/FRBE) can be ordered by letting Simon know what you need. 
 
