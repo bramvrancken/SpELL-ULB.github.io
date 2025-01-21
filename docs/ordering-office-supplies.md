@@ -9,6 +9,6 @@ To order items from Apple, you have to make use of the procedure via the ULB-par
 
 Non-Apple items that are available on the website of [Lyreco](https://www.lyreco.com/webshop/FRBE) can be ordered by letting Simon know what you need. 
 
-Whatever you did not find via the above resources can be purchased, but you’ll have to pre-finance them. Refunds also pass via Simon, giving him lots of pencil-and-paper joy. For this you need the order confirmation and a proof of payment, together with the ULB ID that can be found on your personnel card. 
+Whatever you did not find via the above resources can be purchased, but you’ll have to pre-finance them. Refunds also pass via Simon, giving him lots of pencil-and-paper joy. Do keep the order confirmation and a proof of payment, without you may miss out on the refund. Simon will need to add your ULB ID (which can be found on your personnel card). 
 
 fotoke van kaart
