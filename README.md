@@ -1,6 +1,6 @@
-# ECV-wiki
+# SpELL-wiki
 
-Welcome to our lab wiki 👋! This is a collection of resources, tutorials, and guides that we have found useful in our research. We hope that you will find them useful too.
+Welcome to our lab wiki 👋! This is a collection of resources, tutorials, and guides that we have found useful. We hope that you will find them useful too.
 
 ## Modifying a file:
 
