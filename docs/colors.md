@@ -1,6 +1,6 @@
 # Colors
 
-!!! danger "All credits go to Barney"
+!!! danger "All credits go to Barney Potter"
     This page is a copy of Barney Potter's colors page. If in doubt of the right colors, ask him
 
     _'And never use a rainbow color schema'~ Barney Potter_
