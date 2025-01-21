@@ -1,9 +1,8 @@
 # Homepage
 
-!!! warning "This site is continuously evolving."
+!!! warning "This site is continuously evolving and information may be missing or outdated."
 
--   Information may be missing or outdated
--   Thank you for being patient and passing info and stuff that should be added to Bram or Simon.
+Thank you for being patient and passing info and stuff that should be added to Bram or Simon.
 
 ## Sitemap
 
