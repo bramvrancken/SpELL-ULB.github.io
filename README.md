@@ -13,7 +13,7 @@ Type what you are looking for in the search bar:
 
 ## Working offline on these docs 
 
-You can clone this repo in the traditional way, modify its contents offline and push updates to the master branch. The dependencies are listed in requirements.txt. As always, it is good practise to create a virtual environment before installing these. If you are not familiar with virtual environments, is a good idea to learn about them (see for example [Python venv](https://python.land/virtual-environments/virtualenv)). The following commands can be used to create a virtual environment and install the dependencies:
+You can clone this repo in the traditional way, modify its contents offline and push updates to the master branch. The dependencies are listed in requirements.txt. As always, it is good practise to work in a python virtual environment. If you are not familiar with virtual environments, is a good idea to learn about them (see for example [Python venv](https://python.land/virtual-environments/virtualenv)). The following commands can be used to create a virtual environment and install the dependencies:
 
 ```
 # clone this repo
@@ -31,14 +31,11 @@ You can clone this repo in the traditional way, modify its contents offline and 
 Do not forget to add `venv` to the `.gitignore` file by adding the following lines:
 
 ```
-# open .gitignore
-   (venv) $ vim .gitignore
-# and add the following lines:
-`# Ignore the virtual environment directory [mind the '/']
-venv/` 
+# Ignore the virtual environment directory [mind the '/']
+venv/
 ```
 
-If additional dependencies are needed for further development, the list of dependencies can be updated as follows:
+The list of dependencies can be updated as follows should additional dependencies be needed for further development:
 
 ```
 (venv) $ pip freeze > requirements.txt
