@@ -1,35 +1,35 @@
-## HPC Intro
-> TODO
+## CECI Intro
 
-## HPC resources
+All info you need to start using the CECI cluster can be found on their [website](https://support.ceci-hpc.be/doc/). 
+Particularly useful is the [script wizard](https://www.ceci-hpc.be/scriptgen.html).
 
-To create detailed tables for each cluster profile and the resources and time allowed for each partition, we can follow the logic in the configuration. Here are the tables:
+Given the walltimes of the different servers, Dragon1 (walltime up to 41 days) and Dragon2 (walltime up to 21 days) are most interesting for our purposes. 
 
-!!! info overhead
-    A HPC needs a little memory for the operating system and other services. This is called overhead. The overhead is the memory that is not available for the user.  This is why the maximum memory available to the user is less than the total memory of the node.
+## GPU nodes
 
-### Genius Profile
+The lab has acces to its own compute node. If you want acces to this, go by Simon and he can arrange this. 
 
-| Partition      | nCPUs | Max Memory | Max Time |
-| -------------- | ----- | ---------- | -------- |
-| batch          | 36    | 180 GB     | 72 h     |
-| batch_long     | 36    | 180 GB     | 168 h    |
-| bigmem         | 36    | 720 GB     | 72 h     |
-| bigmem_long    | 36    | 720 GB     | 168 h    |
-| superdome      | 14    | 5772 GB    | 72 h     |
-| superdome_long | 14    | 5772 GB    | 168 h    |
+Specifically, on this node you have acces to 32 CPUs (with a maximum use of 125 GB RAM each) and 4 GPUs. The walltime currently is set to 35 days.
 
-> Numbers are for 1 node. 
+An example job submission script can be found below:
 
-### Wice Profile
+```
+#!/bin/bash
 
-| Partition            | nCPUs | Max Memory | Max Time |
-| -------------------- | ----- | ---------- | -------- |
-| batch                | 72    | 244 GB     | 72 h     |
-| batch_long           | 72    | 244 GB     | 168 h    |
-| bigmem               | 72    | 2016 GB    | 72 h     |
-| dedicated_big_bigmem | 72    | 2016 GB    | 168 h    |
+# Running jobs in parallel over CPUs -- e.g. if you want one process that can use X cores for multithreading: set --ntasks=1 and --cpus-per-task=X
+# With --gres, you can, optionally, detail how many GPUs your job will use: --gres="gpu:1" (with 4 the maximum). The number of GPUs can be omitted.
 
-> Numbers are for 1 node. 
+#SBATCH --job-name=<job name>
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres="gpu" or --gres="gpu:>1, 2, 3 or 4>" 
+#SBATCH --time=<runtime in format DD-hh:mm:ss>
+```
 
-> TODO: GPUs
+To show info on running jobs, and in particular to check that the GPU resource is used, use the `squeue` command after adding the following line to your `.bashrc` (and sourcing it).
+
+```
+export SQUEUE_FORMAT="%.18i %.9P %.8j %.8u %.2t %.10M %.6D %.20R %b"
+```
+
+
