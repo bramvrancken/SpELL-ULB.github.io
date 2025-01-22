@@ -2,12 +2,17 @@
 
 ## CECI-clusters
 
-All info you need to start using a CECI cluster can be found on their [website](https://support.ceci-hpc.be/doc/). 
-Particularly useful is the Slurm  workload manager [script wizard](https://www.ceci-hpc.be/scriptgen.html).
+All info you need to start using a CECI cluster can be found on their [website](https://support.ceci-hpc.be/doc/). Given the walltimes of the different servers, Dragon1 (walltime up to 41 days) and Dragon2 (walltime up to 21 days) are likely the most interesting for choices for your needs. 
 
-Given the walltimes of the different servers, Dragon1 (walltime up to 41 days) and Dragon2 (walltime up to 21 days) are most interesting for our purposes. 
+After you've [set up the public-private key pair](https://support.ceci-hpc.be/doc/_contents/QuickStart/ConnectingToTheClusters/FromAUnixComputer.html?highlight=ssh), it is useful to also walk through the [ssh config wizard](https://www.ceci-hpc.be/sshconfig.html) as this will enable you to connect to your cluster of choice, e.g. Dragon1, with simple and short commands:
 
-## Lab-cluster (GPU computing)
+```
+$ ssh dragon1
+```
+
+The Slurm  workload manager [script wizard](https://www.ceci-hpc.be/scriptgen.html) has also proven very useful.
+
+## SpELL-cluster (GPU computing)
 
 The lab has acces to its own compute node. If you want to use it, pass by Simon and he can arrange you get an account on this. 
 

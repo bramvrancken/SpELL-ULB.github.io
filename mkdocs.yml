@@ -17,8 +17,8 @@ nav:
           - practical/ordering-office-supplies.md
           - practical/admin-assitance.md
     - Social:
-        - social/leuven-bars.md
         - social/brussels-bars.md
+        - social/leuven-bars.md
         - social/messenger-group.md
     - Grants: 
         - grants/fnrs-fwo-application.md
@@ -34,9 +34,9 @@ nav:
         - software-hardware/singularity.md
         - software-hardware/tempest.md
     - Scientific good practises:
+        - tip_and_tricks/how-to-write-a-paper.md
         - tip_and_tricks/colors.md
         - tip_and_tricks/phd-postdoc-society.md
-        - tip_and_tricks/how-to-write-a-paper.md
     - Phylogenetics: 
         - phylogenetics/intro-to-phylogenetics.md
 
@@ -76,9 +76,11 @@ theme:
         - content.action.edit
         - content.code.annotate
         - content.code.copy
-        - navigation.sections
+        #- navigation.sections
         - navigation.prune
         - navigation.top
+        - navigation.tabs
+        - navigation.tabs.sticky
         - navigation.tracking
         - search.share
         - search.suggest
