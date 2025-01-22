@@ -44,8 +44,7 @@ The list of dependencies can be updated as follows should additional dependencie
 (venv) $ pip freeze > requirements.txt
 ```
 
-
-
+Files are structured in Classic Markdown format. You can edit them directly on GitHub by clicking the pencil icon in the top right corner of the file. Have a look at the [GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/) or [mkdocs-material](https://squidfunk.github.io/mkdocs-material/reference/) for more information on how to format your text.
 
 
 
