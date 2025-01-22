@@ -16,7 +16,7 @@ Type what you are looking for in the search bar:
 
 ## Modifying a file - offline
 
-You can clone this repo in the traditional way, modify its contents offline and push updates to the master branch. The dependencies are listed in requirements.txt. As always, it is good practise to work in a python virtual environment. If you are not familiar with virtual environments, is a good idea to learn about them (see for example [Python venv](https://python.land/virtual-environments/virtualenv)). The following commands can be used to create a virtual environment and install the dependencies:
+You can clone this repo in the traditional way, modify its contents offline and push updates to the main branch. The dependencies are listed in requirements.txt. As always, it is good practise to work in a python virtual environment. If you are not familiar with virtual environments, is a good idea to learn about them (see for example [Python venv](https://python.land/virtual-environments/virtualenv)). The following commands can be used to create a virtual environment and install the dependencies:
 
 ```bash
 # clone this repo
