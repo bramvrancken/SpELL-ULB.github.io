@@ -4,7 +4,7 @@ Docker is a software platform that allows you to build, test, and deploy applica
 ## Why Docker?
 Docker takes away repetitive, mundane configuration tasks and is used throughout the development lifecycle for fast, easy and portable application development – desktop and cloud. How does docker achieve this? It uses containers! **A container** is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker **container image** is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
 
-![docker](./images/docker.png){.center}
+![docker](../images/docker.png){.center}
 > Docker is build on the users hardware and runs applications in containers. Unlike a virtual machine, a container does not need to run a full operating system, making it much more lightweight and efficient.
  
 A **Dockerfile** is simply a text-based script of instructions that is used to build a container image. 

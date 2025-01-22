@@ -13,7 +13,7 @@ To that end, I'm dumping color related stuff here so that it is easier to find i
 
 [Viz Palette](https://projects.susielu.com/viz-palette): I use this a lot. Gives you a very quick look at how a set of colors work together. Gives each one a qualitative name, does colorblindness comparisons (that are easy to look at), and lets you tweak the colors pretty easily.
 
-![Viz Palette](images/viz-palette.png)
+![Viz Palette](../images/viz-palette.png)
 
 ### Papers
 
