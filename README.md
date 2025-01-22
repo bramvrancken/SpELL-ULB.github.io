@@ -2,7 +2,10 @@
 
 Welcome to our lab wiki 👋! This is a collection of resources, tutorials, and guides that we have found useful. We hope that you will find them useful too.
 
-## Modifying a file:
+This wiki is made with Material for MkDocs. [MKDocs](https://www.mkdocs.org/) is a static website generator specifically designed for creating documentation websites. Material for MKDocs builds on this and adds lots of bells and whistles. If you want to learn about this, the [Material for MkDocs website](https://squidfunk.github.io/mkdocs-material/) has a thorough documentation, and tutorials like [this one](https://www.youtube.com/watch?v=xlABhbnNrfI) may also be helpful.
+
+
+## Modifying a file - online
 
 Click the small icon in the top right corner of the file.
 
@@ -11,7 +14,7 @@ Files are structured in Classic Markdown format. You can edit them directly on G
 Type what you are looking for in the search bar:
 ![Search bar video](docs/images/Screen%20Recording%202024-05-30%20at%2009.29.18.gif)
 
-## Working offline on these docs 
+## Modifying a file - offline
 
 You can clone this repo in the traditional way, modify its contents offline and push updates to the master branch. The dependencies are listed in requirements.txt. As always, it is good practise to work in a python virtual environment. If you are not familiar with virtual environments, is a good idea to learn about them (see for example [Python venv](https://python.land/virtual-environments/virtualenv)). The following commands can be used to create a virtual environment and install the dependencies:
 
