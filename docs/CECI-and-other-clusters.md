@@ -1,17 +1,19 @@
-## CECI Intro
+# Computing equipment
 
-All info you need to start using the CECI cluster can be found on their [website](https://support.ceci-hpc.be/doc/). 
-Particularly useful is the [script wizard](https://www.ceci-hpc.be/scriptgen.html).
+## CECI-clusters
+
+All info you need to start using a CECI cluster can be found on their [website](https://support.ceci-hpc.be/doc/). 
+Particularly useful is the Slurm  workload manager [script wizard](https://www.ceci-hpc.be/scriptgen.html).
 
 Given the walltimes of the different servers, Dragon1 (walltime up to 41 days) and Dragon2 (walltime up to 21 days) are most interesting for our purposes. 
 
-## GPU nodes
+## Lab-cluster (GPU computing)
 
 The lab has acces to its own compute node. If you want to use it, pass by Simon and he can arrange you get an account on this. 
 
-On this node you have acces to 32 CPUs (with a maximum memory use of 125 GB RAM each) and 4 GPUs. The walltime currently is set to 35 days.
+On this node you have acces to 32 CPUs (with a maximum memory use of 125 GB RAM each) and, more interesting for phylogenetic analyses, 4 GPUs. The walltime currently is set to 35 days. As for the CECI-clusters, workload on this node is also managed using Slurm. 
 
-An example job submission script can be found below:
+An example job submission script for using GPUs can be found below:
 
 ```
 #!/bin/bash

@@ -53,11 +53,6 @@ Contact Delphine Dieudonné (delphine.dieudonne@ulb.be) from the International W
 
 Contact: sprc@ulb.be
 
-# Licence of Microsoft Office suite
-
-An overview of all things one can have access to is provided via this [link](https://support.ulb.be/en/web/support/-/am-qu-est-ce-que-c-est/). For personnel of the category ‘Scientifique - Personnel de tiers’, such as postdocs funded by the FNRS, the default Microsoft Office suite licence is of type A1. This for example does not allow editing files that are downloaded to your computer. This can, however, be overcome by upgrading to an A3 licence free of charge via a request - see this [link](https://support.ulb.be/web/support/-/comment-demander-des-acces-a-des-ressources-numeriques-ulb-pour-moi-meme-ou-pour-un-collaborateur-?inheritRedirect=true&redirect=%2Ffr%2Fweb%2Fsupport%2F-%2Fi-am-a-staff-member.-how-to-get-access-to-ulb-digital-ressources-for-an-external-member-) - for 1-year periods.
-
-
 
 
 

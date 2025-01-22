@@ -1,9 +1,9 @@
 # Colors
 
-!!! danger "All credits go to Barney Potter"
+!!! info "All credits go to Barney Potter"
     This page is a copy of Barney Potter's colors page. If in doubt of the right colors, ask him
 
-    _'And never use a rainbow color schema'~ Barney Potter_
+    _'And never use a rainbow color schema' ~ Barney Potter_
 
 Picking good colors is important for both scientific clarity and aesthetics.
 Poorly chosen colors may misrepresent data because of color palette artifacts, or make people disinclined to look at a figure because it is ugly.
