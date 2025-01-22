@@ -15,7 +15,7 @@ For the first week/month you could stay at an [Airbnb](https://www.airbnb.com/),
 For a longer-term accommodation look at [Immoweb](https://www.immoweb.be/en). 
 Also, do not forget that the lab is in La Plaine campus (not Solbosch)!
 
-(include map)
+--8<-- "docs/practical/map-location-spell.md"
 
 ## Phone number
 
