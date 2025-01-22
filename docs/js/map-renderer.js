@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     }),
                 })
                     .addTo(map)
-                    .bindPopup(`<strong>${marker.name}</strong><br><a href="${marker.url}">Check on google Maps</a>`);
+                    .bindPopup(`<strong>${marker.name}</strong><br><a href="${marker.url}">Check website</a>`);
             });
 
             console.log(`Map ${index} created`);

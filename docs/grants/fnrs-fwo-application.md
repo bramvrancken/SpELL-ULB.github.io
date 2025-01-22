@@ -1,4 +1,4 @@
-# FNRS and FWO applications
+# PhD and postdoc applications
 
 ## Psychology
 

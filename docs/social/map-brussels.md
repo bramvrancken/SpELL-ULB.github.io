@@ -8,9 +8,9 @@
 
 <pre><code class="language-map" id="bars">
 center: 50.81992309433756, 4.397703348640136
-zoom: 14
-SpELL,SpELL,50.81992309433756,4.397703348640136,https://maps.app.goo.gl/2pmp6nkvS5372vPE8
-La Mirabelle,restaurant,50.81625096852414,4.389291957396305,https://maps.app.goo.gl/QTi4k3SH8Zint4AT9
+zoom: 12
+SpELL,SpELL,50.81992309433756,4.397703348640136,https://spell.ulb.be/
+Bozar Restaurant,restaurant,50.84428091492383,4.359911096950592,https://bozarrestaurant.be/
 </code></pre>
 
 <div class="legend-container">
