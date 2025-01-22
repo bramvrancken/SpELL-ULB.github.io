@@ -13,42 +13,34 @@ nav:
     #     - beagle-instll-hpc.md
     #      - singularity.md
     - Practical:
-          - upon-arrival-in-Brussels.md
-          - ordering-office-supplies.md
+          - practical/upon-arrival-in-Brussels.md
+          - practical/ordering-office-supplies.md
     - Social:
-        - leuven-bars.md
-        - leuven-cafes.md
-        - leuven-restaurants.md
-        - Signal.md
+        - social/leuven-bars.md
+        - social/brussels-bars.md
+        - social/messenger-group.md
     - Grants: 
-        - fwo-application.md
-        - fnrs-application.md
+        - grants/fnrs-fwo-application.md
     - PhD - practical:
-        - phd-timeline.md
-    - Phylogenetics: 
-        - intro-to-phylogenetics.md
-        - maximum-likelihood-phylogenetics.md
-        - bayesian-phylogenetics.md
-        - how-to-read-a-tree.md
-        - coalescent.md
-        - phylogeography.md
-        - plotting-trees.md
+        - PhD-practical/phd-timeline.md
+        - PhD-practical/perks-of-the-phd.md
+        - PhD-practical/choosing-a-thematic-programme.md                
     - Software and hardware:
-        - CECI-and-other-clusters.md
-        - software-microsoft-office-license.md
-        - running-beast.md
-        - beagle-instll-hpc.md
-        - beagle-instll-local.md
-        - bioconda.md
-        - docker.md
-        - github-primer.md
-        - log-combiner.md
-        - singularity.md
-        - tempest.md
-        - tracer.md
-        - tree-annotator.md
+        - software-hardware/CECI-and-other-clusters.md
+        - software-hardware/software-microsoft-office-license.md
+        - software-hardware/beagle-instll-hpc.md
+        - software-hardware/beagle-instll-local.md
+        - software-hardware/running-beast.md
+        - software-hardware/bioconda.md
+        - software-hardware/docker.md
+        - software-hardware/singularity.md
+        - software-hardware/tempest.md
     - Scientific good practises:
-        - colors.md
+        - tip_and_tricks/colors.md
+        - tip_and_tricks/phd-postdoc-society.md
+        - tip_and_tricks/how-to-write-a-paper.md
+    - Phylogenetics: 
+        - phylogenetics/intro-to-phylogenetics.md
 
 theme:
     name: material
@@ -94,6 +86,7 @@ theme:
         - search.suggest
         - search.highlight
         - toc.follow
+        - content.footnote.tooltips
         #- navigation.footer
 
 extra_css:
@@ -112,6 +105,7 @@ markdown_extensions:
     - def_list
     - tables
     - md_in_html
+    - footnotes
     - pymdownx.emoji:
           emoji_index: !!python/name:material.extensions.emoji.twemoji
           emoji_generator: !!python/name:material.extensions.emoji.to_svg

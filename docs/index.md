@@ -6,24 +6,6 @@ Thank you for being patient and passing info and stuff that should be added or a
 Like this, our wiki will remain up-to-date.
 Should you find this documentation particularly useful, you're always welcome to show so by treating us one or more :beers: :wink:
 
-## Sitemap
-
--   Practical
-    -   Getting started manual
-    -   Belgium
-    -   KU Leuven
-    -   Work/Rega
--   Theory
-    -   Phylogenetics
-    -   Bayesian statistics
-    -   Key papers
--   Helpful files
-    -   Bank of slides
-    -   Doctoral milestone examples
-    -   Templates
-    -   XML snippets
-    -   Icons for presentations
-
 ## Searching for a file: 
 Type what you are looking for in the search bar :fontawesome-solid-magnifying-glass:{.icons}! It is not google though, use keywords. 
 ![Search bar video](images/Screen%20Recording%202024-05-30%20at%2009.29.18.gif)

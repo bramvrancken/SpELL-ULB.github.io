@@ -22,6 +22,6 @@ Sometimes you work from cafés, we recommend the ones below:
 
 Restaurants recommended by lab members include:
 
-- ...
+- [La Mirabelle](https://maps.app.goo.gl/QTi4k3SH8Zint4AT9)
 
 --8<-- "docs/social/map-brussels.md"
