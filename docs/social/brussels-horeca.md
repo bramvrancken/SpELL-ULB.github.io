@@ -24,4 +24,4 @@ Restaurants recommended by lab members include:
 
 - [Bozar Restaurant](https://bozarrestaurant.be/)
 
---8<-- "docs/maps/map-brussels-bars.md"
+--8<-- "docs/maps/map-brussels-horeca.md"
