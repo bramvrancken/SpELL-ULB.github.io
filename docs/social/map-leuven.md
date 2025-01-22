@@ -25,5 +25,7 @@ University café, cafe,50.8787888,4.7008323, https://onan.be/nl/locations/kup-ku
   <div class="legend-item"><i class="fas fa-virus"></i></span> Rega</div>
   <div class="legend-item"><i class="fas fa-beer"></i></span> Bar</div>
   <div class="legend-item"><i class="fas fa-coffee"></i></span> Cafe</div>
+<!-- 
   <div class="legend-item"><i class="fas fa-utensils"></i></span> Restaurant</div>
+ -->
 </div>

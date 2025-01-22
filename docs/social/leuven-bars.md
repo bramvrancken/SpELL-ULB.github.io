@@ -1,4 +1,4 @@
-# Bars and restaurants
+# Bars and café's in Leuven
 <!--
  WHEN UPDATED, please also update the map.md file with the new locations.
  example: 
@@ -8,18 +8,20 @@
  Types are: bar,cafe,restaurant
  -->
 
-Some bars that people in the lab are fond of:
+Given Simon's and Bram's history in Philippe Lemey's group at the Rega institute, it may not come as a surprise that we can include tips for drinks in Leuven :smiley:
+
+Some bars that people in Philippe's group are fond of:
 
 -   [Malz](https://maps.app.goo.gl/9fJxF2T5ZEFBVTpy7) (lots and lots of local beers)
 -   [Metafoor](https://maps.app.goo.gl/ySan7TcTM72eVGXQ6) (really, only one is fond of this but she drags everyone here).
 -   [Giraf](https://maps.app.goo.gl/pMujoQdiuQQYFBA17) (famous in our lab for shots with bugs in it!)
 
-Some people in the lab are zombies without good coffee, if you are like us, you'll love the cafés below:
+If you like a good coffee, you'll love the cafés below:
 
 -   [MOK](https://maps.app.goo.gl/eZXbpKyq2k8nBPR88)
 -   [Onan](https://maps.app.goo.gl/TMVsfv19AoWzHBFe6) (they serve Fairtrade coffee!)
 
-Sometimes you work from cafés, we recommend the ones below: 
+When there's an urge to work from a café, the ones below have been found very suitable: 
 
 -   [Noir](https://maps.app.goo.gl/68XEiZgXw737j6XVA)
 -   [Swartehond](https://maps.app.goo.gl/oQJ6KcJ73rHFh4xr5)

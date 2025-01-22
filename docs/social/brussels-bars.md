@@ -1,4 +1,4 @@
-# Bars, café's and restaurants
+# Food and drinks in Brussels
 <!--
  WHEN UPDATED, please also update the map.md file with the new locations.
  example: 

@@ -1,4 +1,4 @@
-# ordering office supplies
+# Ordering office supplies
 
 ## Official suppliers of material at ULB
 
