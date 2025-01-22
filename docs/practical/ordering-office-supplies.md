@@ -2,7 +2,7 @@
 
 ## Official suppliers of material at ULB
 
-Contact: commandes.daf@ulb.be   
+Contact: <commandes.daf@ulb.be>   
 More info on this [website](https://portail.ulb.be/fr/finances-achats-et-comptabilite/achats/fournisseurs-officiels-de-l-ulb?ksession=16275aab-dd0b-4ec5-a9e0-eba79f497812).
 
 ## Ordering office supplies
@@ -13,4 +13,4 @@ Non-Apple items that are available on the website of [Lyreco](https://www.lyreco
 
 Whatever you did not find via the above resources can be purchased, but you’ll have to pre-finance them. Refunds also pass via Simon, giving him lots of pencil-and-paper joy. Do keep the order confirmation and a proof of payment, without you may miss out on the refund. Simon will need to add your ULB ID (which can be found on your personnel card). 
 
-fotoke van kaart
+> to add: photo card with ULB ID indicated

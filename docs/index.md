@@ -63,3 +63,5 @@ The list of dependencies can be updated as follows should additional dependencie
 ```bash
 (venv) $ pip freeze > requirements.txt
 ```
+
+Files are structured in Classic Markdown format. Have a look at the [GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/) or [mkdocs-material](https://squidfunk.github.io/mkdocs-material/reference/) for more information on how to format your text.
