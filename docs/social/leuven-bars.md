@@ -27,4 +27,4 @@ Sometimes you work from cafés, we recommend the ones below:
 -   [University café](https://onan.be/nl/locations/kup-kuleuven/)
 
 
---8<-- "docs/map.md"
+--8<-- "docs/social/map-leuven.md"
