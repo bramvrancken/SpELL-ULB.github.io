@@ -5,7 +5,7 @@ First developed at Lawrence Berkeley National Laboratory, it quickly became popu
 The user base continues to expand, with Singularity now used across industry and academia in many areas of work.
 
 !!! Tip
-    Singularity is the tool to run on HPCs, including ours! As you don't need root acces to run it (unlike [docker](./docker.md)).
+    Singularity is the tool to run on clusters, including ours! As you don't need root acces to run it (unlike [docker](./docker.md)).
 
 ## Why Singularity?
 Many container platforms are available, but Singularity is focused on:
@@ -17,7 +17,8 @@ Many container platforms are available, but Singularity is focused on:
 
 
 ## Singularity Installation
-Singularity is available on most HPCs, but if you want to install it on your own machine, you can follow the instructions on the [official website](https://apptainer.org/docs/admin/main/installation.html).
+Singularity is available on most clusters, but if you want to install it on your own machine, you can follow the instructions on the [official website](https://apptainer.org/docs/admin/main/installation.html).
+If you need it and it's not installed yet, check out the info in the documentation for the [CECI clusters](https://support.ceci-hpc.be/doc/index.html). And if needed, contact the CECI [administrators](https://www.ceci-hpc.be/about.html).
 
 !!! info
     Singularity is difficult to install on ARM chips (Apple silicon), haven\'t looked into it in detail. 

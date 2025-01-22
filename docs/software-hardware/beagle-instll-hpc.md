@@ -8,7 +8,7 @@ Installing beagle from source can be a bit of a pain. Installing & compiling fro
 !!! info "what is Singularity?"
     Ooh you don't know what singularity is? Have a read [here](./singularity.md)
 
-The easiest way to use beagle is through a container. The container is a self-contained environment that has all the dependencies installed.
+The easiest way to use beagle is through a container. A container is a self-contained environment that has all the dependencies installed.
 
 A central container repository has multiple versions of the BEAST-BEAGLE software that is compatible with CUDA (GPU).
 
