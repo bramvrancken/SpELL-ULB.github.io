@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
         bar: '<i class="fas fa-beer"></i>',
         restaurant: '<i class="fas fa-utensils"></i>',
         rega: '<i class="fas fa-virus"></i>',
+        SpELL: '<i class="fas fa-virus"></i>',
     };
 
     const pastelColors = {
@@ -13,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
         bar: "#FFB3BA",
         restaurant: "#BFFFD9",
         rega: "#9faae3",
+        SpELL: "#9faae3",
     };
 
     async function createMapsFromCodeBlocks() {

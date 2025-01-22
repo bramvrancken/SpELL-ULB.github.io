@@ -28,9 +28,6 @@ nav:
     - Software and hardware:
         - software-hardware/CECI-and-other-clusters.md
         - software-hardware/software-microsoft-office-license.md
-        - software-hardware/beagle-instll-hpc.md
-        - software-hardware/beagle-instll-local.md
-        - software-hardware/running-beast.md
         - software-hardware/bioconda.md
         - software-hardware/docker.md
         - software-hardware/singularity.md
