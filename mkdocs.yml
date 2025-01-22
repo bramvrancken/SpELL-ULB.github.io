@@ -1,35 +1,77 @@
-site_name: SpELL-wiki
+site_name: SpELL
 repo_name: bramvrancken/SpELL-ULB.github.io
 repo_url: https://github.com/bramvrancken/SpELL-ULB.github.io
 site_url: https://spell-ulb.github.io/
 
 nav:
     - Home: index.md
-    - Recently edited:
-          - bioconda.md
-          - colors.md
-          - leuven-bars.md
-          - leuven-cafes.md
-          - beagle-instll-hpc.md
-          - singularity.md
-    - Pages:
-          - ...
+    #- Recently edited:
+    #      - bioconda.md
+    #      - colors.md
+    #      - leuven-bars.md
+    #      - leuven-cafes.md
+    #     - beagle-instll-hpc.md
+    #      - singularity.md
+    - Practical:
+          - upon-arrival-in-Brussels.md
+          - ordering-office-supplies.md
+    - Social:
+        - leuven-bars.md
+        - leuven-cafes.md
+        - leuven-restaurants.md
+        - Signal.md
+    - Grants: 
+        - fwo-application.md
+        - fnrs-application.md
+    - PhD - practical:
+        - phd-timeline.md
+    - Phylogenetics: 
+        - intro-to-phylogenetics.md
+        - maximum-likelihood-phylogenetics.md
+        - bayesian-phylogenetics.md
+        - how-to-read-a-tree.md
+        - coalescent.md
+        - phylogeography.md
+        - plotting-trees.md
+    - Software and hardware:
+        - CECI-and-other-clusters.md
+        - software-microsoft-office-license.md
+        - running-beast.md
+        - beagle-instll-hpc.md
+        - beagle-instll-local.md
+        - bioconda.md
+        - docker.md
+        - github-primer.md
+        - log-combiner.md
+        - singularity.md
+        - tempest.md
+        - tracer.md
+        - tree-annotator.md
+    - Scientific good practises:
+        - colors.md
 
 theme:
     name: material
-    favicon: images/ECV-cutout.png
-    logo: images/ECV-cutout.png
+    font:
+        text: Merriweather Sans
+        code: Red Hat Mono
+    # favicon: image that appears in tab    
+    favicon: images/spell-logo_grey_noText.png
+    logo: images/spell-logo_grey_noText.png
     palette:
-        - media: "(prefers-color-scheme)"
-          toggle:
-              icon: material/brightness-auto
-              name: Switch to light mode
+#        # system preference
+#        - media: "(prefers-color-scheme)"
+#          toggle:
+#              icon: material/brightness-auto
+#              name: Switch to light mode
+        # light mode
         - media: "(prefers-color-scheme: light)"
           scheme: default
           primary: white
           toggle:
               icon: material/weather-sunny
               name: Switch to dark mode
+        # dark mode
         - media: "(prefers-color-scheme: dark)"
           scheme: slate
           primary: black
@@ -38,7 +80,7 @@ theme:
               name: Switch to system preference
     font:
         text: "Lora"
-        code: "Ubuntu Mono"
+        code: "Ubuntu Mono"    
     features:
         - announce.dismiss
         - content.action.edit
@@ -52,6 +94,7 @@ theme:
         - search.suggest
         - search.highlight
         - toc.follow
+        #- navigation.footer
 
 extra_css:
     - stylesheets/extra.css
@@ -63,6 +106,7 @@ extra_javascript:
     - js/map-renderer.js
 
 markdown_extensions:
+    # highlights of text in boxes (tripple !!! of ???)
     - admonition
     - attr_list
     - def_list
@@ -78,6 +122,7 @@ markdown_extensions:
     - pymdownx.inlinehilite
     - pymdownx.critic
     - pymdownx.snippets
+    # for diagrams: 
     - pymdownx.superfences:
           custom_fences:
               - name: mermaid
@@ -90,6 +135,7 @@ markdown_extensions:
           custom_checkbox: true
     - pymdownx.arithmatex:
           generic: true
+
 plugins:
     - search
     - git-authors:
@@ -104,9 +150,10 @@ plugins:
     - awesome-pages
 
 extra:
+    homepage: https://spell.ulb.be/
     generator: false
     social:
-        - icon: fontawesome/brands/x-twitter
-          link: https://twitter.com/LemeyLab
+        #- icon: fontawesome/brands/x-twitter
+        #  link: https://twitter.com/LemeyLab
         - icon: fontawesome/brands/github
-          link: https://github.com/ECV-Lab-KULeuven
+          link: https://github.com/bramvrancken
