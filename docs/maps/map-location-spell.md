@@ -15,7 +15,7 @@ campus Solbosch,campus Solbosch,50.81352699938328,4.382204373641106,https://www.
 
 <div class="legend-container">
   <div class="legend-item"><i class="fas fa-virus"></i></span> SpELL</div>
-  <div class="legend-item"><i class="fas fa-virus"></i></span> campus Solbosch</div>
+  <div class="legend-item"><i class="fas fa-university"></i></span> campus Solbosch</div>
 <!-- 
   <div class="legend-item"><i class="fas fa-beer"></i></span> Bar</div>
   <div class="legend-item"><i class="fas fa-coffee"></i></span> Café</div>

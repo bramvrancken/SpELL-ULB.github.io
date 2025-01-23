@@ -1,19 +1,20 @@
 # Practical aspects upon arriving
 
-Below a brief guide made by SpELL members. For a more detailed guide, check the [International Welcome Desk](https://www.ulb.be/en/researchers-and-phds-coming-to-ulb).
+Below a brief guide made by SpELL members. For a more detailed guide, check the [International Welcome Desk](https://www.ulb.be/en/researchers-and-phds-coming-to-ulb) documentation.
 
 ## Badge
 
-First, send an e-mail and a photo ID (in '.jpg' format) to Marianne Descheemaeker (Service du personnel administratif, technique, de gestion et spécialisé - SPATGS) and then send an email to one of the following contacts to activate your badge (to have access to the ulb building):
--	badge.acces@ulb.be
--	jean-philippe.charlier@ulb.ac.be
--	anthony.mauclet@ulb.be
+First, send an e-mail and a photo ID (in '.jpg' format) to Marianne Descheemaeker (<marie-anne.descheemaeker@ulb.be>, Service du personnel administratif, technique, de gestion et spécialisé - [SPATGS](https://www.ulb.be/fr/marianne-descheemaeker-1)) and then send an email to one of the following contacts to activate your badge (to get access to the building):
+
+-	<badge.acces@ulb.be>
+-	<jean-philippe.charlier@ulb.ac.be>
+-	<anthony.mauclet@ulb.be>
 
 ## Housing 
 
 For the first week/month you could stay at an [Airbnb](https://www.airbnb.com/), but if you are planning to stay for 1-3 months in a temporary accommodation, it is advisable to look at [spotahome](https://www.spotahome.com/). 
-For a longer-term accommodation look at [Immoweb](https://www.immoweb.be/en). 
-Also, do not forget that the lab is in La Plaine campus (not Solbosch, see map)!
+Longer-term accommodation can be searched for via [Immoweb](https://www.immoweb.be/en) (--  other options?). 
+Also, do not forget that the lab is at the La Plaine campus (not Solbosch, see map)!
 
 --8<-- "docs/maps/map-location-spell.md"
 

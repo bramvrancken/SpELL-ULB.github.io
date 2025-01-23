@@ -1,5 +1,0 @@
-### TempEst
-
-A common step in workflows of timed evolutionary analyses is an intuitive exploration of the strength of temporal signal by regressing root-to-tip distances versus sampling dates ([Hill and Baele, 2019](https://pubmed.ncbi.nlm.nih.gov/31364710/); [Rambaut et al., 2016](https://pubmed.ncbi.nlm.nih.gov/27774300/); [Rieux and Balloux, 2016](https://pubmed.ncbi.nlm.nih.gov/26880113/)). It is, however, well-known that this ignores the partial covariances that follow from the shared ancestry between the investigated sequences, and that this can have difficult-to-predict consequences ([Drummond et al., 2003](https://pubmed.ncbi.nlm.nih.gov/14711090/); [Duchene et al., 2015](https://pubmed.ncbi.nlm.nih.gov/25771196/); [Murray et al., 2016](https://pubmed.ncbi.nlm.nih.gov/27110344/); [Vrancken et al., 2017](https://pubmed.ncbi.nlm.nih.gov/29026650/)). Despite these shortcomings, it remains a useful tool for data exploration. An often overlooked possibility of this is that by coloring the residuals by category, one may identify ...
-
- 
