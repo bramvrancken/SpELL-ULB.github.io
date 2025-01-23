@@ -13,7 +13,7 @@ First, send an e-mail and a photo ID (in '.jpg' format) to Marianne Descheemaeke
 
 For the first week/month you could stay at an [Airbnb](https://www.airbnb.com/), but if you are planning to stay for 1-3 months in a temporary accommodation, it is advisable to look at [spotahome](https://www.spotahome.com/). 
 For a longer-term accommodation look at [Immoweb](https://www.immoweb.be/en). 
-Also, do not forget that the lab is in La Plaine campus (not Solbosch)!
+Also, do not forget that the lab is in La Plaine campus (not Solbosch, see map)!
 
 --8<-- "docs/practical/map-location-spell.md"
 
