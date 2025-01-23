@@ -10,7 +10,7 @@ nav:
     #      - colors.md
     #      - leuven-bars.md
     #      - leuven-cafes.md
-    #     - beagle-instll-hpc.md
+    #      - beagle-instll-hpc.md
     #      - singularity.md
     - Practical:
           - practical/upon-arrival-in-Brussels.md
@@ -32,13 +32,13 @@ nav:
         - software-hardware/bioconda.md
         - software-hardware/docker.md
         - software-hardware/singularity.md
-        - software-hardware/tempest.md
     - Scientific good practises:
         - tip_and_tricks/how-to-write-a-paper.md
         - tip_and_tricks/colors.md
         - tip_and_tricks/phd-postdoc-society.md
     - Phylogenetics: 
         - phylogenetics/intro-to-phylogenetics.md
+        - phylogenetics/tempest.md
 
 theme:
     name: material
