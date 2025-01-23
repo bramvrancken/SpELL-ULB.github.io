@@ -19,7 +19,7 @@ Files are structured in Classic Markdown format. Have a look at the [GitHub Mark
 
 ## Modifying a file - offline
 
-You can clone the GitHub repo in the traditional way, modify its contents offline and push updates to the main branch. The dependencies are listed in requirements.txt. As always, it is good practise to work in a python virtual environment. If you are not familiar with virtual environments, is a good idea to learn about them (see for example [Python venv](https://python.land/virtual-environments/virtualenv)). The following commands can be used to create a virtual environment and install the dependencies:
+If you want to contribute to the development of this wiki, ask Bram or Simon for access to the GitHub repo. You can clone it in the traditional way, modify its contents offline and push updates to the main branch. The dependencies are listed in requirements.txt. As always, it is good practise to work in a python virtual environment. If you are not familiar with virtual environments, is a good idea to learn about them (see for example [Python venv](https://python.land/virtual-environments/virtualenv)). The following commands can be used to create a virtual environment and install the dependencies:
 
 ```bash
 # clone this repo
