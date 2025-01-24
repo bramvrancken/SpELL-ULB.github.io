@@ -141,7 +141,7 @@ plugins:
               - index.md
     - git-revision-date-localized:
           type: timeago
-    - awesome-pages
+    #- awesome-pages
 
 extra:
     homepage: https://spell.ulb.be/
