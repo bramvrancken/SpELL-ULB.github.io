@@ -39,6 +39,7 @@ nav:
     - Phylogenetics: 
         - phylogenetics/intro-to-phylogenetics.md
         - phylogenetics/tempest.md
+        - phylogenetics/maps_in_R.md
 
 theme:
     name: material
