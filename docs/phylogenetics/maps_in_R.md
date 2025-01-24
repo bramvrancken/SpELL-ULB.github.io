@@ -29,6 +29,7 @@ require(terra)
 country_ISO3 <- "USA" # 3-letter ISO code
 focus_state <- "Texas"
 focus_county <- "Pecos"
+bg_fill <- "grey75"
 plot_name <- "US_illustration.pdf"
 ```
 
@@ -60,12 +61,14 @@ Now set a background fill color that contrasts with the fill color for Texas to 
 # layout plots side by side:
 par(mfrow=c(1,2))
 # fill colors:
-state_colors <- rep(x = "grey95", length(map_data_focus$NAME_1))
-state_colors[which(map_data_focus$NAME_1 == focus_state)] <- "#D68861"
+bg_fill <- "grey75"
+focus_fill <- "#EFB6E9"
+state_colors <- rep(x = bg_fill, length(map_data_focus$NAME_1))
+state_colors[which(map_data_focus$NAME_1 == focus_state)] <- focus_fill
 # with dark-colored borders:
 terra::plot(map_data_focus, col = state_colors, lwd = .5, border = 1, axes = FALSE)
 # without borders:
-terra::plot(map_data_focus, col = state_colors, lwd = .5, border = 0, axes=F)
+terra::plot(map_data_focus, col = state_colors, lwd = .5, border = 0, axes = FALSE)
 # reset plot layout to default:
 par(mfrow=c(1,1))
 ```
@@ -81,7 +84,10 @@ if (!(file.exists("./gadm/gadm41_USA_2_pk.rds"))){
 } else {
   map_data <- terra::vect(x = "./gadm/gadm41_USA_2_pk.rds")
 }
+
 county_index <- which(map_data$NAME_1 == focus_state & map_data$NAME_2 == focus_county)
+border_color <- "#595959"
+focus2_fill <- "#61AFD6"
 
 # create base plot and overlay Sweetwater county:
 terra::plot(map_data_focus, col = state_colors, lwd = .5, border = 0, axes = FALSE)
@@ -90,7 +96,6 @@ terra::plot(map_data[county_index], add=TRUE, border = "#595959", col = "#61AFD6
 
 ![US_Sweetwater_map](../images/US_illustration.2.png){.center}
 
-
 Finally, indicate the location of Houston on the map. To add a point to the map, create a vector and overlay the plot with it:
 
 ```
@@ -98,7 +103,9 @@ lon <- -95.358421
 lat <- 29.749907
 lonlat <- cbind(lon, lat)
 pt <- terra::vect(lonlat)
-terra::plot(pt, add=TRUE, pch=16, col="#61AFD6", cex=1.5)
+
+focus2_fill <- "#14A83B"
+terra::plot(pt, add=TRUE, pch = 18, col = focus2_fill, cex = 2)
 ```
 
 ![US_Lakeside_map](../images/US_illustration.3.png){.center}
