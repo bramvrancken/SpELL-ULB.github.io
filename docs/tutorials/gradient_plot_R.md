@@ -1,4 +1,4 @@
-# Plots with color gradients in R
+# Plot with color gradient in R
 
 Sometimes, one needs to plot several points using a color gradient. For example, over the course of 10 years, in France, one friendly Frenchman has been spotted every year. We can plot where they have been seen on a map, and use a color gradient to indicate the year in which these fortunate encounters took place.
 
