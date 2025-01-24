@@ -43,8 +43,11 @@ nav:
 theme:
     name: material
     font:
-        text: Merriweather Sans
-        code: Red Hat Mono
+#        text: Merriweather Sans
+#        code: Red Hat Mono
+#    font:
+        text: "Lora"
+        code: "Ubuntu Mono"    
     # favicon: image that appears in tab    
     favicon: images/spell-logo_grey_noText.png
     logo: images/spell-logo_grey_noText.png
@@ -68,9 +71,6 @@ theme:
           toggle:
               icon: material/weather-night
               name: Switch to system preference
-    font:
-        text: "Lora"
-        code: "Ubuntu Mono"    
     features:
         - announce.dismiss
         - content.action.edit
