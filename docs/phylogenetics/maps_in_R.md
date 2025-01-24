@@ -1,6 +1,6 @@
 # Plotting maps in R
 
-There are a set of very helpfull R packages that allow to create beautiful figures from maps. Many nice and thorough explanations on how to use them can be found on the web (e.g <https://rspatial.org/>). This in in no way intended as a replacement for these. Rather, the idea is that this brief primer might save you some the time by giving you a quick start.
+There are a set of very helpfull R packages that allow to create beautiful figures from maps. Many nice and thorough explanations on how to use them can be found on the web (e.g <https://rspatial.org/>). This in in no way intended as a replacement for these. Rather, the idea is that this brief primer might save you some time by giving you a quick start.
 
 In order to plot custom maps, you need a file with the - preferably annotated - geometry that delineates whatever you're interested in (continent, country, state, province, community border, ...). These are stored using specific formats and can be downloaded either directly from the web, or you could download the required file(s) using a dedicated function. In thus demo, we'll use gadm() from the [geodata package](https://cran.r-project.org/web/packages/geodata/index.html) to download US administrative area information from <https://gadm.org>. We'll also illustrate how to color the map using the annotations and how to overlay maps with points. 
 
