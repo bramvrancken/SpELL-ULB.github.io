@@ -6,8 +6,8 @@ All info you need to start using a CECI cluster can be found on their [website](
 
 After you've [set up the public-private key pair](https://support.ceci-hpc.be/doc/_contents/QuickStart/ConnectingToTheClusters/FromAUnixComputer.html?highlight=ssh), it is useful to also walk through the [ssh config wizard](https://www.ceci-hpc.be/sshconfig.html) as this will enable you to connect to your cluster of choice, e.g. Dragon1, with simple and short commands:
 
-```
-$ ssh dragon1
+```bash
+ssh dragon1
 ```
 
 The Slurm  workload manager [script wizard](https://www.ceci-hpc.be/scriptgen.html) has also proven very useful.
@@ -20,7 +20,7 @@ On this node you have acces to 32 CPUs (with a maximum memory use of 125 GB RAM 
 
 An example job submission script for using GPUs can be found below:
 
-```
+```bash	
 #!/bin/bash
 
 # Running jobs in parallel over CPUs -- e.g. if you want one process that can use X cores for multithreading: set --ntasks=1 and --cpus-per-task=X
@@ -36,13 +36,13 @@ An example job submission script for using GPUs can be found below:
 To show info on running jobs, and in particular to check that the GPU resource is used, use the `squeue` command.
 We've found it useful to add the following line to `~/.bashrc`:
 
-```
+```bash
 export SQUEUE_FORMAT="%.18i %.9P %.8j %.8u %.2t %.10M %.6D %.20R %b"
 ```
 
 To immediately make use of this, source `.bashrc` (this will not be necessary the following times you log in):
 
-```
-$ source ~/.bashrc
+```bash
+source ~/.bashrc
 ```
 
