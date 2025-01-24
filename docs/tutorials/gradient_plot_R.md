@@ -1,8 +1,8 @@
 # Plots with color gradients in R
 
-Sometimes, we need to plot several points using a color gradient. For example, over the course of 10 years, in France, one specimen of a  has been taken each year. We can plot their sampling locations on a map using a color gradient to indicate the sampling time. To illustrate how this can be done, we'll plot these points on a map of France. 
+Sometimes, one needs to plot several points using a color gradient. For example, over the course of 10 years, in France, one friendly Frenchman has been spotted every year. We can plot where they have been seen on a map, and use a color gradient to indicate the year in which these fortunate encounters took place.
 
-If you do not already have the geodata and terra packages installed, do this now:
+If you do not already have the geodata, terra and RColorBrewer packages installed, do this now:
 
 > to add: go though BiocManager::install() -- advantages
 
@@ -12,7 +12,7 @@ install.packages(c("geodata", "terra", "RColorBrewer"), dependencies = TRUE)
 
 We begin by loading the necessary packages and creating a set of variables: 
 
-```
+```R
 #### packages ####
 require(geodata)
 require(terra)
@@ -33,7 +33,7 @@ sample_years <- seq(from = year_first, to = year_last, by = 1)
 
 Fetch the map data and plot the map. To get an idea of the lon-lat boundaries for simulating sampling locations (see next step), we set `axes = TRUE` when plotting.
 
-```
+```R
 # only need to download once:
 if (!(file.exists("./gadm/gadm41_FRA_1_pk.rds"))){
   map_data <- geodata::gadm(country = country_ISO3, level = 1, path = getwd(), version = "latest")
@@ -47,7 +47,7 @@ terra::plot(map_data, col = region_colors, lwd = .5, border = 0, axes = TRUE)
 
 For the sake of this example, we'll simulate longitude-latitude pairs for each sample in a box confined to mainland France, and combine these into an spatial object for plotting. 
 
-```
+```R
 #simulate lon-lat pairs:
 xmin <- -1
 xmax <- 5
@@ -62,7 +62,7 @@ pts <- terra::vect(lonlat)
 
 Now create the color gradient and add the points and legend to the plot. 
 
-```
+```R
 # get colorgradient:
 cols <- colorRampPalette(brewer.pal(9,"YlGnBu"))(length(sample_years))
 # plot sample locations, but omit axes:
@@ -87,7 +87,7 @@ legend(x = -5,
 
 And do not forget to save your work:
 
-```
+```R
 dev.copy(pdf, plot_name)
 dev.off()
 ```

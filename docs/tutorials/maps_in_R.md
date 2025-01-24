@@ -20,7 +20,7 @@ We'll plot a map of mainland US and indicate the following locations on the map:
 
 We begin by loading the necessary packages and creating a set of variables: 
 
-```
+```R
 #### packages ####
 require(geodata)
 require(terra)
@@ -41,7 +41,7 @@ plot_name <- "US_illustration.pdf"
 
 To download the file with state borders, the administrative level needs to be set to 1. We'll also save this info so you don't need an internet connection next time you need to work on the figure. 
 
-```
+```R
 #### fetch the shapefile ####
 if (!(file.exists("./gadm/gadm41_USA_1_pk.rds"))){
   map_data <- geodata::gadm(country = country_ISO3, level = 1, path = getwd(), version = "latest")
@@ -52,7 +52,7 @@ if (!(file.exists("./gadm/gadm41_USA_1_pk.rds"))){
 
 Let's focus on mainland US by providing the longitude (x_min, x_max) and latitude (y_min, y_max) coordinates that delineate the area of interest: 
 
-```
+```R
 e.xmin <- -125
 e.xmax <- -55
 e.ymin <- 25
@@ -63,7 +63,7 @@ map_data_focus <- terra::crop(x = map_data, y = e)
 
 Now set a background fill color that contrasts with the fill color for Texas to draw the eye to Texas on the map. Plotting the state borders in black will render the map too 'busy', so we'll opt to not do so, which will make them appear as white lines. To contrast the difference, we'll layout both maps next to each other.
 
-```
+```R
 # layout plots side by side:
 par(mfrow=c(1,2))
 # fill colors:
@@ -81,7 +81,7 @@ par(mfrow=c(1,1))
 
 To overlay Pecos county on the map, we need to download a file with county-level precision (administrative level 2). We'll put visual emphasis on the borders of Pecos county by using different border and fill colors. The county polygon can be extracted by indexing:
 
-```
+```R
 # only need to download once:
 if (!(file.exists("./gadm/gadm41_USA_2_pk.rds"))){
   map_data <- geodata::gadm(country = country_ISO3, level = 2, path = getwd(), version = "latest")
@@ -100,7 +100,7 @@ terra::plot(map_data[county_index], add=TRUE, border = "#595959", col = "#61AFD6
 
 Finally, indicate the location of Houston on the map. To add a point to the map, create a vector and overlay the plot with it:
 
-```
+```R
 lon <- -95.358421
 lat <- 29.749907
 lonlat <- cbind(lon, lat)
@@ -114,7 +114,7 @@ terra::plot(pt, add=TRUE, pch = 18, col = focus2_fill, cex = 2)
 
 Finally, don't forget to save the work:
 
-```
+```R
 dev.copy(pdf, plot_name)
 dev.off()
 ```
