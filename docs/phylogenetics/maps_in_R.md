@@ -73,7 +73,7 @@ terra::plot(map_data_focus, col = state_colors, lwd = .5, border = 0, axes = FAL
 par(mfrow=c(1,1))
 ```
 
-![US_Texas_map](../images/US_illustration.1.dark_vs_light_borders.png){.center}
+![US_Texas_map](../images/US_illustration.1.dark_vs_light_borders.png)
 
 To overlay Pecos county on the map, we need to download a file with county-level precision (administrative level 2). We'll put visual emphasis on the borders of Pecos county by using different border and fill colors. The county polygon can be extracted by indexing:
 
@@ -94,7 +94,7 @@ terra::plot(map_data_focus, col = state_colors, lwd = .5, border = 0, axes = FAL
 terra::plot(map_data[county_index], add=TRUE, border = "#595959", col = "#61AFD6", lwd = 1)
 ```
 
-![US_Sweetwater_map](../images/US_illustration.2.png){.center}
+![US_Sweetwater_map](../images/US_illustration.2.png)
 
 Finally, indicate the location of Houston on the map. To add a point to the map, create a vector and overlay the plot with it:
 
@@ -108,7 +108,7 @@ focus2_fill <- "#14A83B"
 terra::plot(pt, add=TRUE, pch = 18, col = focus2_fill, cex = 2)
 ```
 
-![US_Lakeside_map](../images/US_illustration.3.png){.center}
+![US_Lakeside_map](../images/US_illustration.3.png)
 
 Finally, don't forget to save the work:
 
