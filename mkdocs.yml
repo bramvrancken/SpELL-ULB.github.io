@@ -39,8 +39,10 @@ nav:
     - Phylogenetics: 
         - phylogenetics/intro-to-phylogenetics.md
         - phylogenetics/tempest.md
-        - phylogenetics/maps_in_R.md
-
+    - Tutorials:    
+        - tutorials/maps_in_R.md
+        - tutorials/gradient_plot_R.md
+        
 theme:
     name: material
     font:
