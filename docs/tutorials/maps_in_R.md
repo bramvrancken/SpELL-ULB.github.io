@@ -8,7 +8,7 @@ If you do not already have the geodata and terra packages installed, do this now
 
 > to add: go though BiocManager::install() -- advantages
 
-```
+```R
 install.packages(c("geodata", "terra"), dependencies = TRUE)
 ```
 

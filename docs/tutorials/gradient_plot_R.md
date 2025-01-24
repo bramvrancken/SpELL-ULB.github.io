@@ -6,7 +6,7 @@ If you do not already have the geodata, terra and RColorBrewer packages installe
 
 > to add: go though BiocManager::install() -- advantages
 
-```
+```R
 install.packages(c("geodata", "terra", "RColorBrewer"), dependencies = TRUE)
 ```
 
