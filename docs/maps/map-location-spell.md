@@ -9,7 +9,7 @@
 <pre><code class="language-map" id="bars">
 center: 50.817399898449466, 4.390381916480024
 zoom: 14.5
-SpELL,SpELL,50.81992309433756,4.397703348640136,https://spell.ulb.be/
+SpELL,SpELL,50.82015644752181,4.397391411174634,https://spell.ulb.be/
 campus Solbosch,campus Solbosch,50.81352699938328,4.382204373641106,https://www.ulb.be/en/ulb-homepage
 </code></pre>
 
