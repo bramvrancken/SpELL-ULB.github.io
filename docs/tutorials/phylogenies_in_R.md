@@ -1,6 +1,6 @@
 # Phylogenies in R
 
-Chances are that at some point you'll need to manipulate phylogenies, for which R can be a convenient go-to language. 
+Chances are that at some point you'll need to manipulate phylogenies, for which R can be a convenient go-to language.
 
 ## Phylogenies as objects of class 'phylo'
 
@@ -15,6 +15,8 @@ Popular packages such as ape() store trees as a 'phylo'-class. This class is a l
 root if it exists.
 
 > to add: examples of how to work with trees of this class
+
+refer to book by Emmanuel Paradis: <https://link.springer.com/book/10.1007/978-1-4614-1743-9>
 
 ## Phylogenies with metadata
 
