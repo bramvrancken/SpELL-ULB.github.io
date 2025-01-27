@@ -58,7 +58,7 @@ Should additional dependencies be needed for further development, these are to b
 (venv) $ pip freeze > requirements.txt
 ```
 
-If you want a local preview of how the website looks, you can run the following command from the base dir, and go to the URL that is shown 
+If you want a local preview of how the website renders, you can run the following command from the base dir, and go to the URL that is shown 
 
 ```bash
 (venv) $ mkdocs serve
