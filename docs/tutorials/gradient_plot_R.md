@@ -4,10 +4,9 @@ Sometimes, one needs to plot several points using a color gradient. For example,
 
 If you do not already have the geodata, terra and RColorBrewer packages installed, do this now:
 
-> to add: go though BiocManager::install() -- advantages
-
 ```R
-install.packages(c("geodata", "terra", "RColorBrewer"), dependencies = TRUE)
+#install.packages(c("geodata", "terra", "RColorBrewer"), dependencies = TRUE)
+BiocManager::install(pkgs = c("geodata", "terra", "RColorBrewer"))
 ```
 
 We begin by loading the necessary packages and creating a set of variables: 

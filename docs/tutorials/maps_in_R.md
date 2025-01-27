@@ -6,17 +6,16 @@ In order to plot custom maps, you need a file with the - preferably annotated - 
 
 If you do not already have the geodata and terra packages installed, do this now:
 
-> to add: go though BiocManager::install() -- advantages
-
 ```R
-install.packages(c("geodata", "terra"), dependencies = TRUE)
+#install.packages(c("geodata", "terra"), dependencies = TRUE)
+BiocManager::install(pkgs = c("geodata", "terra"))
 ```
 
 We'll plot a map of mainland US and indicate the following locations on the map:
 
-	- the state of Texas
-	- Pecos county, Texas
-	- Houston, Harris county, Texas
+- the state of Texas
+- Pecos county, Texas
+- Houston, Harris county, Texas
 
 We begin by loading the necessary packages and creating a set of variables: 
 

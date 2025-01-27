@@ -16,11 +16,11 @@ root if it exists.
 
 > to add: examples of how to work with trees of this class
 
-refer to book by Emmanuel Paradis: <https://link.springer.com/book/10.1007/978-1-4614-1743-9>
+> to do: incorporate reference to book by Emmanuel Paradis: <https://link.springer.com/book/10.1007/978-1-4614-1743-9>
 
 ## Phylogenies with metadata
 
 > to add: trees with associated metadata // treeio()
 
-link to <https://yulab-smu.top/treedata-book/index.html>
+> link to <https://yulab-smu.top/treedata-book/index.html>
 

@@ -178,38 +178,118 @@ As variables can be re-used in subsequent commands, this strategy has the advant
 
 Packages are a set of R functions, compiled code, and sample data. By default, R installs a core set of packages during installation and on startup only those are available. Other packages with useful functions that are not part of the core set need to be installed separately. They also need to be activated or loaded to be used.
 
-Packages can be downloaded from repositories. Examples of repositories for R packages include: 
+Packages can be downloaded from repositories. The most popular repositories for R packages include: 
 
 - [The Comprehensive R Archive Network](https://cran.r-project.org/) (CRAN). This is a repository that's maintained by the global R community. For a package to be published in CRAN, the Package needs to pass several tests to ensure that the package is following CRAN policies.
 
-- [Bioconductor](https://www.bioconductor.org/) is a topic-specific repository, intended for open source software for bioinformatics. Similar to [CRAN](https://cran.r-project.org/), it has its own submission and review processes in order to maintain its quality standards. A key feature of Bioconductor is the well-organized package management system.
+- [Bioconductor](https://www.bioconductor.org/) is a topic-specific repository, intended for open source software for bioinformatics. Similar to [CRAN](https://cran.r-project.org/), it has its own submission and review processes in order to maintain its quality standards. A key feature of Bioconductor is the well-organized package management system. More details about the advantages of using Bioconductor can be found at their [website](https://www.bioconductor.org/).
 
+As Bioconductor is easy-to-use and handles package-version issues well, it is advised to read the documentation on their website. As this may convince you of its advantages over the default way R handles packages, we provide some more info on how to use it below. 
 
-
-Functionalities from installed packages can be accessed with the following syntax: packagename::functionname()
+Bioconductor can be installed using standard R installation procedures, which is required only once per R installation:
 
 ```R
-# example
-ape::plot.phylo(arguments)
+# install BiocManager if not already done so:
+if (!require("BiocManager", quietly = TRUE)){
++  install.packages("BiocManager")    
++ }
 ```
 
-Alternatively, a package can be activated for the current R session after which its functions can be directly accessed:
- 
+To take advantage of the latest package-features and to access packages that have been added to Bioconductor since the previous release, users of older R and Bioconductor versions must update their installation. Alternatively, if you have good reasons not to update to the latest version of R and Bioconductor, one can try to install a specific version of BiocManager. For this, first find out which R version is installed:
+
 ```R
-# activate package syntax: library(name of package):
+version
+# platform       x86_64-apple-darwin17.0     
+# arch           x86_64                      
+# os             darwin17.0                  
+# system         x86_64, darwin17.0          
+# status                                     
+# major          4                           
+# minor          2.0                         
+# year           2022                        
+# month          04                          
+# day            22                          
+# svn rev        82229                       
+# language       R                           
+# version.string R version 4.2.0 (2022-04-22)
+# nickname       Vigorous Calisthenics      
+```
+
+In this example, R version 4.2.0 is installed. To find out which version of Bioconductor is compatible, browse to <https://bioconductor.org/about/release-announcements/> and look up the version of Bioconductor that correspons to the installed R version. A Bioconductor version that corresponds to e.g. R version 4.2 can be installed with the following command:
+
+```R
+BiocManager::install(version = "3.16")
+```
+
+The installed version of Bioconductor can be checked with
+
+```R
+BiocManager::version()
+# [1] ‘3.16’
+```
+
+Bioconductor packages work best when they are all from the same release. Use valid() to identify packages that are out-of-date or from unexpected versions. This command returns an object with lots of info, including a list of packages that are out of date as can be seen in the example below: 
+
+```R
+v <- BiocManager::valid()
+# 'getOption("repos")' replaces Bioconductor standard repositories, see '?repositories' for details
+#
+# replacement repositories:
+#    CRAN: https://cran.rstudio.com/
+# 
+# Warning message:
+# 8 packages out-of-date; 0 packages too new 
+# ...
+
+v$out_of_date
+#          Package     LibPath                                                          Installed Built   ReposVer
+# aplot     "aplot"     "/Library/Frameworks/R.framework/Versions/4.2/Resources/library" "0.1.8"   "4.2.0" "0.1.9" 
+# ...
+```
+
+As it in general is a good idea to be able to make use of the latest functionalities, the default behavior of `BiocManager::install()` it to ask to update out-of-date packages. You are of course free to not do so as sometimes these version differences are not relevant. It's up to you to make an informed decision on this. Note that this behaviour can be changed by setting the update argument to `FALSE`, in which case no attempt will be made to update old packages.
+
+The above already gave it away: the command to install and manage packages from the Bioconductor project is `BiocManager::install()`. For example, the following command installs the ape package: 
+
+```R
+BiocManager::install(pkgs = "ape")
+```
+
+As soon as a package is installed, be it from Bioconductor or not, its functionalities can be accessed with the following syntax: `packagename::functionname()`. Alternatively, a package can be activated for the current R session after which its functions can be directly accessed:
+
+```R
+# Without activating the package to the current R session:
+ape::rtree(arguments)
+
+# activate package: library(name of package):
 library(ape)
 # now these package's functions can be directly used
-plot.phylo(arguments)
+rtree(arguments)
+```
+
+Mind that when packages have functions with the same name, the function that is used by default is that of the last loaded package. This information is printed to screen the first time such a conflict arises. This is, for example, the case when activating the Rsamtools package:
+
+```R
+library(Rsamtools)
+#Loading required package: GenomeInfoDb
+#Loading required package: BiocGenerics
+#
+#Attaching package: ‘BiocGenerics’
+#
+#The following objects are masked from ‘package:stats’:
+#
+#    IQR, mad, sd, var, xtabs 
+#...
 ```
 
 ## The help system
 
-R has an inbuilt help facility similar to the man facility of UNIX. To get more information on any specific named function, for example plot.phylo() of the ape-package, the command is
+R has an inbuilt help facility similar to the `man` facility of UNIX. To get more information on any specific named function, for example rtree() of the ape-package, the command is
 
 ```R
-help(plot.phylo)
+help(rtree)
 # or equivalently:
-?plot.phylo
+?rtree
 ```
  
 If one does not know the name of the function that is needed, a search with keywords is possible with the function help.search(). This looks for a specified topic, given as a character string, in the help pages of all installed packages. For instance:
