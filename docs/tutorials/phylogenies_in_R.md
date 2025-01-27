@@ -14,10 +14,11 @@ Popular packages such as ape() store trees as a 'phylo'-class. This class is a l
 - root.edge (optional) a numeric value giving the length of the branch at the
 root if it exists.
 
+> to add: examples of how to work with trees of this class
 
 ## Phylogenies with metadata
 
-> to add: ggtree() //  treeio().
+> to add: trees with associated metadata // treeio()
 
 link to <https://yulab-smu.top/treedata-book/index.html>
 
