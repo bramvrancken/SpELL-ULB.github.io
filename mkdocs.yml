@@ -33,13 +33,15 @@ nav:
         - software-hardware/docker.md
         - software-hardware/singularity.md
     - Scientific good practises:
-        - tip_and_tricks/how-to-write-a-paper.md
-        - tip_and_tricks/colors.md
-        - tip_and_tricks/phd-postdoc-society.md
+        - scientific-good-practises/how-to-write-a-paper.md
+        - scientific-good-practises/colors.md
+        - scientific-good-practises/phd-postdoc-society.md
     - Phylogenetics: 
         - phylogenetics/intro-to-phylogenetics.md
         - phylogenetics/tempest.md
     - Tutorials:    
+        - tutorials/Introduction_to_R.md
+        - tutorials/phylogenies_in_R.md
         - tutorials/maps_in_R.md
         - tutorials/gradient_plot_R.md
         
