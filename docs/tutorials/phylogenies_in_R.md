@@ -4,7 +4,7 @@ Chances are that at some point you'll need to manipulate phylogenies, for which 
 
 ## Phylogenies as objects of class 'phylo'
 
-Popular packages such as ape() store trees as a 'phylo'-class. This class is a list that holds the necessay information of a phylogeny in different components: 
+Popular packages such as [ape()](https://cran.r-project.org/web/packages/ape/) store trees as a 'phylo'-class. This class is a list that holds the necessay information of a phylogeny in different components: 
 
 - edge a two-column matrix where each row represents a branch (or edge) of the tree. The nodes and tips are represented by integers; the n tips are numbered from 1 to n, and the m (internal) nodes from n+1 to n+m (the root being n + 1). For each row, the first column gives the ancestor.
 - edge.length (optional) a numeric vector giving the lengths of the branches given by edge.
