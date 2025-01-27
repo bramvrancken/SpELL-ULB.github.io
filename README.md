@@ -38,10 +38,27 @@ Do not forget to add `venv` to the `.gitignore` file by adding the following lin
 venv/
 ```
 
-The list of dependencies can be updated as follows should additional dependencies be needed for further development:
+Next time you want to work on this repo, all you need to do is `cd` into the base folder and activate the virtual environment:
+
+```bash
+# move into the repo base directory   
+   $ cd SpELL-ULB.github.io
+# activate the virtual environment   
+   $ source ./venv/bin/activate   
+```
+
+Should additional dependencies be needed for further development, these are to be added to the list of dependencies. This list can be updated as follows:
+
+> to do: figure out which argument to pass so as to just get the dependencies that are used
 
 ```bash
 (venv) $ pip freeze > requirements.txt
+```
+
+If you want a local preview of how the website looks, you can run the following command from the base dir, and go to the URL that is shown 
+
+```bash
+(venv) $ mkdocs serve
 ```
 
 Files are structured in Classic Markdown format. You can edit them directly on GitHub by clicking the pencil icon in the top right corner of the file. Have a look at the [GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/) or [mkdocs-material](https://squidfunk.github.io/mkdocs-material/reference/) for more information on how to format your text.

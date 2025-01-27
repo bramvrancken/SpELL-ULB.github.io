@@ -64,6 +64,4 @@ If you want a local preview of how the website looks, you can run the following 
 (venv) $ mkdocs serve
 ```
 
-
-
 Files are structured in Classic Markdown format. Have a look at the [GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/) or [mkdocs-material](https://squidfunk.github.io/mkdocs-material/reference/) for more information on how to format your text.

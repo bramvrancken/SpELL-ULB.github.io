@@ -24,3 +24,5 @@ root if it exists.
 
 > link to <https://yulab-smu.top/treedata-book/index.html>
 
+https://yulab-smu.top/treedata-book/chapter1.html
+https://yulab-smu.top/treedata-book/index.html
